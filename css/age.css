@@ -1,0 +1,60 @@
+tr {
+	text-align: center;
+}
+.ajtable td {
+    padding: 8px;
+    display: inline-flex;
+}
+.ajtable {
+	margin: 180px 2%;
+}
+@media (min-width: 405px) {
+	.ajtable {
+		margin: 45% 5%;
+	}
+}	
+@media (min-width: 450px) and (max-width: 768px) {
+	.ajtable {
+		width: 80%;
+		height: 80%;
+		margin: 5% 9%;  
+	}
+	.ajtable td {
+		padding: 35px;
+		display: table-cell;
+	}
+}
+@media (min-width: 576px) {
+	.ajtable td {
+		padding: 10px;
+		display: table-cell;
+	}
+}
+
+@media (min-width: 768px) {
+	.ajtable {
+		width: 30%;
+		height: 25%;
+		margin: 15% 35%;
+	}
+}
+@media (min-width: 992px) {
+	.ajtable {
+		width: 30%;
+		height: 25%;
+		margin: 15% 32%;
+	}
+}
+@media (min-width: 1200px) {
+	.ajtable {
+		margin: 15% 35%;
+	}
+	.ajtable td {
+		padding: 30px;
+	}
+}
+@media (min-width: 1580px) {
+	.ajtable td {
+		padding: 35px;
+	}
+}
