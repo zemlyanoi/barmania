@@ -56,7 +56,7 @@ template =
 '	<tr><td colspan="2" class="headtext">Вам вже виповнилось 18 років?<BR/><BR/></td></tr>' +
 '	<tr>' +
 '		<td id="lp"><input type="button" value="Нi" onclick="agejs(\'<18\');" /></td>' +
-'		<td id="rp"><input type="button" value="=Tаk" onclick="agejs(\'>18\');" /></td>' +
+'		<td id="rp"><input type="button" value="Tаk" onclick="agejs(\'>18\');" /></td>' +
 '	</tr>' +
 '</table>';
 
